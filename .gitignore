@@ -1,0 +1,18 @@
+# Instance-specific context and memory
+AGENT_CONTEXT.md
+AGENT_CONTEXT.local.md
+AGENT_ROLE.md
+AGENT_ROLE.local.md
+AUTONOMY_POLICY.md
+AUTONOMY_POLICY.local.md
+memory/
+private/
+
+# Secrets and local runtime files
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+__pycache__/
+.venv/
